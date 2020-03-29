@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: textos
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: textos
+  inspection: Not:HasGuards
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: textos
+  inspection: HasTypeSignature

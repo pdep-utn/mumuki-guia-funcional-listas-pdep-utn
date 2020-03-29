@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cantidadTuitsCortos
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cantidadTuitsCortos
+  inspection: HasUsage:tuitCorto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cantidadTuitsCortos
+  inspection: HasComposition
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cantidadTuitsCortos
+  inspection: HasTypeSignature

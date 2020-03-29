@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: resumir
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: resumir
+  inspection: HasComposition
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: resumir
+  inspection: HasUsage:recortar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: resumir
+  inspection: HasUsage:textos
